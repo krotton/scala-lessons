@@ -47,3 +47,5 @@ object AdditionRaw:
   * @param op2 Second (right) operand
   */
 case class Addition(op1: Int, op2: Int)
+
+case class AdditionPlus(op1: Int, op2: Int, op3: Int) extends Addition(op1, op2)
